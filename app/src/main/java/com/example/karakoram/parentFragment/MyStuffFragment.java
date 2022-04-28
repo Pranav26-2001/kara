@@ -77,7 +77,7 @@ public class MyStuffFragment extends Fragment {
         }
         else{
             adapter.addFragment(new FeedBackListFragment(true), "Mess Feedbacks");
-            adapter.addFragment(new ComplaintChildFragment(Category.Others,true), "Complains");
+//            adapter.addFragment(new ComplaintChildFragment(Category.Others,true), "Complains");
         }
         viewPager.setAdapter(adapter);
     }

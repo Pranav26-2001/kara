@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/drawable/ic_app_background.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.214" />
+        <entry key="app/src/main/res/drawable/theme5lite.xml" value="0.214" />
+        <entry key="app/src/main/res/font/font.xml" value="0.34010416666666665" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_bill_description.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_bill_form.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_bill_image.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_complaint.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_complaint_description.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_complaint_form.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_event_description.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_event_form.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_feedback_description.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_google_form.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_image.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_menu_description.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_user_info.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_wing_map.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/complaint_listview.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/event_listview.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/feedback_list_view.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_bill.xml" value="0.2718010501585146" />
+        <entry key="app/src/main/res/layout/fragment_bill_child.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_complaint_child.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_event.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_food.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_fullscreen_image.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_mess.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_mess_feedback.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_mess_list.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_my_stuff.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_mydialog.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/fragment_signin.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/hostel_bill_listview.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/list_hostel_bills.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/listview_menu.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/spinner_item.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_kara_app_icon_round.xml" value="0.211" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.211" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.211" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

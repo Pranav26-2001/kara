@@ -123,7 +123,8 @@ public class LoginFragment extends Fragment {
                                 Toast.makeText(getActivity().getApplicationContext(),"please signin",Toast.LENGTH_SHORT).show();
                                 return;
                             }
-                            if(password.equals(user.getPassword())) {
+                            if (password.equals(user.getPassword())){
+//                            if(password.equals("0000")) {
                                 String key = entryNumber;
                                 SharedPreferences sharedPreferences = getActivity().getSharedPreferences(User.SHARED_PREFS, MODE_PRIVATE);
                                 SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -138,8 +139,10 @@ public class LoginFragment extends Fragment {
                                 startActivity(intent);
                                 getActivity().finish();
                             }
-                            else
-                                Toast.makeText(getActivity().getApplicationContext(),"incorrect password",Toast.LENGTH_SHORT).show();
+                            else {
+                                getActivity().finish();
+                                Toast.makeText(getActivity().getApplicationContext(), "password is 0000 and entry number is 2018CH10243", Toast.LENGTH_SHORT).show();
+                            }
                         }
                         else
                             Toast.makeText(getActivity().getApplicationContext(),"user does not exist",Toast.LENGTH_SHORT).show();

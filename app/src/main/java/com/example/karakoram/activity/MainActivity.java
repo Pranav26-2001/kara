@@ -27,6 +27,7 @@ import com.example.karakoram.parentFragment.EventFragment;
 import com.example.karakoram.parentFragment.MyStuffFragment;
 import com.example.karakoram.parentFragment.BillFragment;
 import com.example.karakoram.parentFragment.MessFragment;
+import com.example.karakoram.FirebaseQuery;
 import com.example.karakoram.resource.User;
 import com.google.android.material.navigation.NavigationView;
 
@@ -50,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
         initVariables();
         initViews();
         setViews();
-
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         openFragment(new EventFragment(false));
     }
@@ -140,8 +140,8 @@ public class MainActivity extends AppCompatActivity {
 
         navView.setBehaviorTranslationEnabled(true);
         navView.setDefaultBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimary));
-        navView.setAccentColor(ContextCompat.getColor(this, R.color.white));
-        navView.setInactiveColor(ContextCompat.getColor(this, R.color.black));
+        navView.setAccentColor(ContextCompat.getColor(this, R.color.orange_red)); // active colour
+        navView.setInactiveColor(ContextCompat.getColor(this, R.color.white)); // inactive colour
         navView.setTitleState(AHBottomNavigation.TitleState.ALWAYS_SHOW);
         navView.setColored(false);
         navView.setCurrentItem(0);
@@ -159,7 +159,8 @@ public class MainActivity extends AppCompatActivity {
                         return openFragment(new MessFragment());
 
                     case 2:
-                        return openFragment(new BillFragment());
+                        startActivity(new Intent(MainActivity.this, GoogleForm.class));
+                        break;
 
                     case 3:
                         return openFragment(new MyStuffFragment());
@@ -198,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
                     if (sharedPreferences.getString("type", "Student").equals("Admin"))
                         startActivity(new Intent(MainActivity.this, ComplaintActivity.class));
                     else
-                        startActivity(new Intent(MainActivity.this, ComplaintFormActivity.class));
+                        startActivity(new Intent(MainActivity.this, GoogleForm.class));
                 } else if (id == R.id.navigation_about) {
                     startActivity(new Intent(MainActivity.this, AboutActivity.class));
                 } else if (id == R.id.navigation_logout) {
